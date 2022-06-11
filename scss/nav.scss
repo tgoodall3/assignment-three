@@ -1,0 +1,57 @@
+.nav-wrapper{
+height: 90px;
+width: 100%;
+position: fixed;
+
+nav{
+    max-width: 980px;
+    height: 90px;
+    margin: 0 auto;
+    border-bottom: solid 2px #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: gillsansbold;
+
+    .logo{
+        position: relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px #fff;
+        font-family: gillsansbold;
+        font-size: 25px;
+    
+
+        span{
+          position: absolute;
+          bottom: -8px;
+          color: #fff;
+          margin-left: 7px;
+        }
+    }
+
+    .links{
+       width: 350px;
+       display: flex;
+       justify-content: space-around;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+     }
+
+    span{
+        color: #EE4367;
+    }
+    }
+     
+}
+}
+
+@media only all and (max-width: 1050px){
+    .nav-wrapper{
+        nav{
+            padding: 0 30px ;
+        }
+    }
+}

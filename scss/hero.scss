@@ -1,0 +1,27 @@
+.hero{
+    background-image: linear-gradient(to bottom, rgba(255,209,64,.5), rgba(255,209,64,.5)),url(../images/home-hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .center-content { 
+        width: 300px;
+        text-align: center;
+        color: white;
+        font-family: serifreg;
+
+        .red{
+            color: #EE4367;
+            font-family: gillsansbold;
+            font-size: 20px;
+        }
+
+        .lower{
+            font-family: gillsansbold;
+        }
+    }
+}
