@@ -1,0 +1,419 @@
+
+
+.image-header{
+    margin-top: -30px;
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            display: flex;
+            width: 981px;
+            height: 200px;
+        }
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            position: relative;
+            top: -130px;
+            font-size: 60px;
+            color: white;
+            font-family: novathin;
+        }
+    }
+}
+
+
+.tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .row-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .image0ne{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -60px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{ 
+                position: relative;
+                top: -250px;
+                right: -45px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+                
+                 button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                 }
+             }
+        }
+        .imagetwo{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -50px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -45px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+                
+                 button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                 }
+             }
+        }
+        .imagethree{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -8px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -45px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+                
+                 button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                 }
+             }
+        }
+    }
+    .row-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .image0ne{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+                margin-bottom: 20px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -5px;
+                font-size: 40px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -45px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+              
+                button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                }
+            }
+            }
+        }
+        .imagetwo{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -30px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -35px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+                
+                button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                }
+            }
+            }
+        }
+        .imagethree{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -40px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -45px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+                
+                button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                }
+            }
+            }
+        
+    
+    .row-three{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .image0ne{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+                
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -35px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -45px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+               
+                button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                }
+            }
+        }
+        .imagetwo{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -20px;
+                font-size: 60px;
+                font-family: novathin;
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -35px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+               
+                button{
+                    position: relative;
+                    top: -200px;
+                    left: 55px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                }
+            }
+           
+        }
+        .imagethree{
+            margin: 40px;
+            img{
+                display: flex;
+                width: 236px;
+                height: 304px;
+            }
+            .country{
+                position: relative;
+                top: -250px;
+                right: -40px;
+                font-size: 60px;
+                font-family: novathin;
+                
+            }
+            .price{
+                position: relative;
+                top: -250px;
+                right: -30px;
+                font-size: 30px;
+                font-family: novareg;
+            }
+            .btn{
+               
+                button{
+                    position: relative;
+                    top: -200px;
+                    left: 60px;
+                     height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     font-family: gillsansreg;
+                     border: none;
+                     border-radius: 16px;
+                     color: white;
+                }
+            }
+            
+            }
+        }
+    
+        @media (max-width: 1140px){
+            .tours{
+                flex-wrap: wrap;
+                .row-one{
+                    flex-wrap: wrap;
+                    .image0ne{
+                    }
+                    .imagetwo{}
+                    .imagethree{}
+                    .row-two{
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }

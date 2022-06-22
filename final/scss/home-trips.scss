@@ -1,0 +1,204 @@
+.trips{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 250px;
+    .row-one{
+        display: flex;
+        flex-wrap: wrap;
+        .image0ne{
+            margin-right: 20px;
+            span{
+                position: absolute;
+                top: 625px;
+                left: 300px;
+                font-size: 60px;
+                font-family: novareg;
+            }
+            img{
+            display: flex;
+            height: 304px;
+            width: 236px;
+            }
+            
+            .btn{
+                position: absolute;
+                top: 750px;
+                left: 300px;
+                button{
+                    width: 133px;
+                    height: 40px;
+                    color: white;
+                    background-color: #79ADDC;
+                    font-family: gillsansreg;
+                    border: none;
+                    border-radius: 16px;
+                }
+            }
+        }
+        .imagetwo{
+            display: flex;
+            height: 304px;
+            width: 236px;
+            margin-right: 12px;
+            span{
+                position: relative;
+                top: 80px;
+                right: 190px;
+                font-size: 60px;
+                font-family: novareg;
+            }
+
+            .btn{
+                position: absolute;
+                top: 750px;
+                left: 555px;
+                button{
+                    width: 133px;
+                    height: 40px;
+                    color: white;
+                    background-color: #79ADDC;
+                    font-family: gillsansreg;
+                    border: none;
+                    border-radius: 16px;
+                }
+            }
+        }
+        .imagethree{
+            display: flex;
+            height: 304px;
+            width: 236px;
+            position: relative;
+            top: -40px;
+            right: 40px;
+            span{
+                position: absolute;
+                top: 80px;
+                right: 3px;
+                font-size: 60px;
+                font-family: novareg;
+            }
+
+            .btn{
+                position: absolute;
+                top: 404px;
+                right: 110px;
+                button{
+                    width: 133px;
+                    height: 40px;
+                    color: white;
+                    background-color: #79ADDC;
+                    font-family: gillsansreg;
+                    border: none;
+                    font-size: 13px;
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+.form{
+    .header{
+        display: flex;
+        margin-left: 270px;
+        align-items: center;
+        font-size: 60px;
+        margin-top: -100px;
+        font-family: novathin;
+    }
+    .inputs{
+        .column-one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+            margin: 10px;
+            height: 58px;
+            width: 344px;
+            padding: 10px;
+            border: #79ADDC 2px solid;
+            font-family: gillsanslight;
+            }
+        }
+        .column-two{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                margin: 10px;
+                height: 58px;
+                width: 344px;
+                padding: 10px;
+                color: black;
+                border: #79ADDC 2px solid;
+                font-family: gillsanslight;
+            }
+        }
+        .row-one{
+
+            form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            }
+            input{
+                margin: 10px;
+                margin-left: 125px;
+                height: 58px;
+                width: 600px;
+                padding: 10px;
+                color: black;
+                border: #79ADDC 2px solid;
+                font-family: gillsanslight;
+            }
+        }
+        .row-two{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                margin: 10px 50px;
+                margin-left: 18px;
+                height: 58px;
+                width: 103px;
+                padding: 10px;
+                color: black;
+                border: #79ADDC 2px solid;
+                font-family: gillsanslight;
+            }
+        }
+        .bottom-input{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            input{
+                width: 720px;
+                height: 192px;
+                padding: 10px;
+                color: black;
+                border: #79ADDC 2px solid;
+                font-family: gillsanslight;
+            }
+        }
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        button{
+        width: 813px;
+        height: 50px;
+        border-radius: 16px;
+        background-color: #79ADDC;
+        font-size: 20px;
+        color: white;
+        font-family: gillsansreg;
+        border: none;
+        }
+    }
+}

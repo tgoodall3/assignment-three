@@ -1,0 +1,134 @@
+.blog-header{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    .header{
+        white-space: nowrap;
+        span{
+        display: flex;
+       border-bottom: solid 2px black;
+        width: 170px;
+        font-size: 60px;
+        width: 130px;
+        font-family: novathin;
+        }
+    }
+}
+
+.blog-content{
+    .upper{
+        .image0ne{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                display: flex;
+                width: 900px;
+                height: 259px;
+            }
+        }
+        .date{
+            display: flex;
+            height: 60px;
+            width: 60px;
+            background-color: #79ADDC;
+            position: relative;
+            top: -260px;
+            left: 100px;
+            font-family: gillsansbold;
+            
+
+            .month{
+                span{
+                    position: relative;
+                    top: 30px;
+                    left: 20px;
+                    font-size: 15px;
+                    font-family: gillsansreg;
+                    color: white;
+                }
+            }
+            .day{
+                span{
+                    position: relative;
+                    top: 8px;
+                    left: -2px;
+                    font-size: 15px;
+                    font-size: 22px;
+                    color: white;
+                }
+            }
+        }
+  
+    .header{
+        
+        margin: 10px;
+        margin-left: 180px;
+        font-family: gillsansbold;
+    }
+    .text{
+        margin-top: 15px;
+        margin-left: 180px;
+        width: 30%;
+        color:#79ADDC;
+        font-family: gillsansreg;
+    }
+}
+}
+
+.lower{
+    
+    .imagetwo{
+        margin-top: 40px;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        img{
+            display: flex;
+            width: 900px;
+            height: 259px;
+        }
+    }
+    .date{
+        display: flex;
+        height: 60px;
+        width: 60px;
+        background-color: #79ADDC;
+        position: relative;
+        top: -260px;
+        left: 100px;
+        .month{
+            span{
+                position: relative;
+                top: 30px;
+                left: 20px;
+                font-size: 15px;
+                font-family: gillsansreg;
+                color: white;
+            }
+        }
+        .day{
+            span{
+                position: relative;
+                top: 8px;
+                left: 2px;
+                font-size: 15px;
+                font-size: 22px;
+                font-family: gillsansbold;
+                color: white;
+            }
+        }
+    }
+    .header{
+        margin-left: 180px;
+        span{
+            font-family: gillsansbold;
+        }
+    }
+    .text{
+        margin-top: 15px;
+        margin-left: 180px;
+        width: 30%;
+        color: #79ADDC;
+        font-family: gillsansreg;
+    }
+}

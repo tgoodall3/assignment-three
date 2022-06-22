@@ -1,0 +1,72 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: gillsansreg;
+    src: url(fonts/GillSans.ttf);
+}
+
+@font-face {
+    font-family: gillsansultra;
+    src: url(fonts/gillsans-ultrabold.ttf);
+}
+
+@font-face {
+    font-family: gillsanslight;
+    src: url(Fonts/gillsans-light.ttf);
+}
+
+@font-face {
+    font-family: gillbolditalic;
+    src: url(fonts/gillsans-bolditalic.ttf);
+}
+
+
+
+@font-face {
+    font-family: gillsansitalic;
+    src: url(fonts/gillsans-italic.ttf);
+}
+
+@font-face {
+    font-family: gillsansbold;
+    src: url(fonts/Gillsans-bold.ttf);
+}
+
+@font-face {
+    font-family: gillsanssemi;
+    src: url(fonts/gillsans-semibold.ttf);
+}
+
+@font-face {
+    font-family: gillsanssemiitalic;
+    src: url(fonts/gillsans-semibolditalic.ttf);
+}
+
+@font-face {
+    font-family: novabold;
+    src: url(fonts/proximaNova-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: novalight;
+    src: url(fonts/proximaNova-light-webfont.woff);
+}
+
+@font-face {
+    font-family: novareg;
+    src: url(fonts/ProximaNova-regular-webfont.woff);
+}
+@font-face {
+    font-family: novathin;
+    src: url(fonts/proximaNova-thin-webfont.woff);
+}

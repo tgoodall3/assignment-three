@@ -1,0 +1,137 @@
+
+
+.offer-header{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    .header{
+        white-space: nowrap;
+        span{
+        display: flex;
+       border-bottom: solid 2px black;
+        width: 170px;
+        font-size: 60px;
+        width: 400px;
+        font-family: novathin;
+        }
+    }
+}
+
+.offer-content{
+    .upper{
+        display: flex;
+        margin-left: 100px;
+        font-family: gillsanslight;
+    .image0ne{
+        img{
+            display: flex;
+            height: 287px;
+            width: 199px;
+        }
+    }
+    .header{
+        margin-left: 45px;
+        font-family: novathin;
+        
+        span{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            border-bottom: solid 2px black;
+            margin-right: 35px;
+        }
+    }
+    .text{
+       margin-top: 100px;
+       margin-left: -285px;
+        width: 20%;
+        font-size: 16px;
+    }
+    .btn{
+        margin-top: 250px;
+        margin-left: -232px;
+        button{
+            height: 40px;
+            width: 121px;
+            background-color: #79ADDC;
+            font-size: 15px;
+            border-radius: 16px;
+            border: none;
+            font-family: gillsansreg;
+            color: white;
+        }
+    }
+}
+ .lower{
+     display: flex;
+     margin-top: 75px;
+     margin-left: 100px;
+    .imagetwo{
+        img{
+            display: flex;
+            height: 287px;
+            width: 199px;
+        }
+    }
+    .header{
+        margin-top: 40px;
+        margin-left: 45px;
+        flex-wrap: wrap;
+        font-family: novathin;
+        span{
+            margin-right: 35px;
+            font-size: 30px;
+            border-bottom: solid 2px black;
+            font-family: novathin;
+        }
+    }
+    .text{
+       margin-top: 100px;
+       margin-left: -320px;
+        width: 20%;
+        font-size: 16px;
+        color: black;
+        font-family: gillsanslight;
+    }
+    .btn{
+        margin-top: 250px;
+        margin-left: -232px;
+        button{
+            height: 40px;
+                     width: 121px;
+                     background-color: #79ADDC;
+                     font-size: 15px;
+                     border-radius: 16px;
+                     border: none;
+                     font-family: gillsansreg;
+                     color: white;
+        }
+    }
+}
+}
+
+
+@media (max-width: 678px){
+    .upper{
+        
+    .image0ne{
+        img{
+           
+        }
+    }
+    .header{
+       flex-wrap: wrap;
+        span{
+            
+        }
+    }
+    .text{
+     
+    .btn{
+     
+        button{
+           margin-right: 30px;
+        }
+    }
+}
+}
+}

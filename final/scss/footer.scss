@@ -1,0 +1,33 @@
+footer{
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    background-color: #79ADDC;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        margin-top: 30px;
+        margin-left: 100px;
+        img{
+            display: flex;
+            height: 42px;
+            width: 136px;
+        }
+    }
+    .terms{
+       color: white;
+       margin-right: -100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: gillsansreg;
+    }
+    .socials{
+        margin-right: 180px;
+        img{
+        display: flex;
+        height: 100px; 
+        width: 150px;
+        }
+    }
+}

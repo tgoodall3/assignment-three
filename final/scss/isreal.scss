@@ -1,0 +1,121 @@
+.gallery{
+    margin-top: -90px;
+.row-one{
+    .header{
+        margin-left: 150px;
+        font-size: 80px;
+        span{
+            position: relative;
+            top: 100px;
+            flex-wrap: wrap;
+            color: white;
+            font-family: novareg;
+        }
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            display: flex;
+            width: 981px;
+            height: 413px;
+        }
+
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            position: relative;
+            top: -40px;
+            right: 0px;
+            color: white;
+            font-size: 30px;
+            font-family: novathin;
+        }
+    }
+}
+
+.row-two{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 15px;
+    justify-content: space-evenly;
+    width: 84.5%;
+    margin-left: 98px;
+
+    .image-one{
+        img{
+            display: flex;
+            width: 298px;
+            height: 347px;
+        }
+    }
+    .image-two{
+        img{
+            display: flex;
+            width: 298px;
+            height: 347px;
+        }
+    }
+    .image-three{
+        img{
+            display: flex;
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+}
+
+
+.lower-section{
+    width: 80%;
+    display: flex;
+    margin-left: 140px;
+    flex-direction: column;
+    .day-one{
+        margin-top: 20px;
+        .header{
+            font-size: 60px;
+            border-bottom: solid 2px black;
+            width: 200px;
+            font-family: novathin;
+        }
+        .text{
+            margin-top: 20px;
+            font-size: 16px;
+            font-family: gillsansbold;
+        }
+    }
+
+    .day-two{
+        .header{
+            font-size: 60px;
+            border-bottom: solid 2px black;
+            width: 200px;
+            font-family: novathin;
+        }
+        .text{
+            margin-top: 20px;
+            font-size: 16px;
+            font-family: gillsansbold;
+        }
+    }
+
+    .day-three{
+        .header{
+            font-size: 60px;
+            border-bottom: solid 2px black;
+            width: 200px;
+            font-family: novathin;
+        }
+        .text{
+            margin-top: 20px;
+            font-size: 16px;
+            font-family: gillsansbold;
+        }
+    }
+}

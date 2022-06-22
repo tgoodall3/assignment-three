@@ -1,0 +1,82 @@
+.contact-header{
+    .header{
+        white-space: nowrap;
+        margin-left: 150px;
+        margin-bottom: 70px;
+        span{
+        display: flex;
+       border-bottom: solid 2px black;
+        width: 170px;
+        font-size: 60px;
+        width: 275px;
+        font-family: novathin;
+        }
+        
+    }
+}
+
+.contact-content{
+    .upper{
+        .side{
+            display: flex;
+            .image0ne{
+                margin-left: 150px;
+                img{
+                    display: flex;
+                    width: 400px;
+                    height: 442px;
+                }
+            }
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                margin-left: 49px;
+
+                .message {
+                    display: flex;
+                    input{
+                    width: 529px;
+                    height: 199px;
+                    font-family: gillsansreg;
+                    
+                    }
+                }
+                input{
+                    width: 529px;
+                    height: 60px;
+                    margin-top: 10px;
+                    background-color: #F5F5F5;
+                    border: none;
+                    padding: 10px;
+                    font-family: gillsansreg;
+                }
+
+                .btn{
+                    margin-top: 20px;
+                    button{
+                        font-family: gillsansreg;
+                        border-radius: 16px;
+                        border: none;
+                        height: 40px;
+                                 width: 121px;
+                                 background-color: #79ADDC;
+                                 font-size: 15px;
+                                 color: white;
+                    }
+                }
+            }
+            
+        }
+
+        .text{
+            display: flex;
+            width: 30%;
+            flex-direction: column;
+            margin-left: 150px;
+            margin-top: 50px;
+            span{
+                font-family: gillsansbold;
+            }
+        }
+    }
+}

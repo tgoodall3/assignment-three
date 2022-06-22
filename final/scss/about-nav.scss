@@ -1,0 +1,131 @@
+
+
+
+    .about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+
+    .logo{
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .links{
+        margin-right: 100px;
+        margin-top: 40px;
+
+        a{
+        text-decoration: none;
+        color: black;
+        font-family: gillsansreg;
+        }
+
+        span{
+            color: black;
+        }
+    }
+}
+.border2{
+    border-bottom: solid 2px black;
+    position: relative;
+    top: -100px;
+    left: 90px;
+    width: 87%;
+    
+}
+
+
+.about-content{
+    margin-left: 100px;
+    .header{
+        display: flex;
+       border-bottom: solid 2px black;
+        width: 170px;
+        font-size: 60px;
+        font-family: novathin;
+    }
+    .text{
+        margin-top: 20px;
+        width: 90%;
+        align-self: center;
+        font-size: 16px;
+         font-family: gillsansitalic;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 350px;
+        margin-top: 50px;
+        button{
+            height: 40px;
+            width: 121px;
+            background-color: #79ADDC;
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+.lower-header{
+    .head{
+        margin-top: 100px;
+    span{
+        font-size: 60px;
+        border-bottom: solid 2px black;
+        font-family: novathin;
+       
+    }
+}
+    .client-quotes{
+        margin-top: 50px;
+        .quote-one{
+            display: flex;
+            .image{
+                margin-left: 100px;
+                img{}
+                display: flex;
+                width: 260px;
+                height: 150px;
+            }
+            .paragraph{
+                margin-left: -10px;
+                width: 40%; 
+                font-family: gillsansitalic;
+            }
+            .reviewee{
+                margin-top: 65px;
+                color: #79ADDC;
+                font-family: novathin;
+            }
+        }
+
+        .quote-two{
+            display: flex;
+            .image{
+                margin-top: 40px;
+                margin-left: 100px;
+                img{
+                    display: flex;
+                width: 225px;
+                height: 150px;
+                }
+            }
+         .paragraph{
+             margin-top: 50px;
+             margin-left: 20px;
+             width: 40%;
+             font-family: gillsansitalic;
+         }
+         .reviewee{
+             margin-top: 120px;
+             color: #79ADDC;
+             font-family: novathin;
+         }
+        }
+    }
+
+}
